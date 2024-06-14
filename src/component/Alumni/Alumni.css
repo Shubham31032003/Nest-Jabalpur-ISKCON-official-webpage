@@ -1,0 +1,22 @@
+.alumni_heading
+{
+    font-family: "Vollkorn SC", serif;
+    
+}
+#alumni
+{
+    font-size: 19px;
+}
+.alumni-card {
+    border: 1px solid #908e8e;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 5px black;
+  }
+.alumni-img
+{
+    height: 250px;
+    width: 250px;
+    border: 1px solid #7C5229;
+}

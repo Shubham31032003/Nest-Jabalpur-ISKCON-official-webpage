@@ -1,0 +1,65 @@
+.form-container {
+    max-width: 570px;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #7e7b7b;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-header h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+    font-family: "Vollkorn SC", serif;
+    text-align: center;
+  }
+  
+  .form-item {
+    margin-bottom: 20px;
+  }
+  
+  .form-item label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #000;
+    font-family: "Vollkorn SC", serif;
+  }
+  
+  .form-item input,
+  .form-item textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    font-family: "Vollkorn SC", serif;
+  }
+  
+  .label-required {
+    color: #f00;
+  }
+  
+  .submit-btn {
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 1px solid  #7C5229;
+    border-radius: 5px;
+    background-color:  #7C5229;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Vollkorn SC", serif;
+    
+  }
+  .form-actions {
+    text-align: center;
+  }
+  
+  .submit-btn:hover {
+    background-color: #8c5e31;
+  }
+  
+  

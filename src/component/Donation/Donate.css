@@ -1,0 +1,15 @@
+.donation_heading
+{
+    font-family: "Vollkorn SC", serif;
+}
+.donation-container {
+    margin: 50px auto;
+    padding: 30px;
+    border: 1px solid #908e8e;
+    border-radius: 10px;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.qr-code {
+    max-width: 200px;
+}

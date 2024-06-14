@@ -1,0 +1,184 @@
+.carousel-control-prev, .carousel-control-next {
+    background-color: #7C5229; /* Orange background color */
+    border: none;
+    width: 30px; /* Adjust width as needed */
+    height: 30px; /* Adjust height as needed */
+    top: 50%; /* Keep buttons centered vertically */
+    transform: translateY(-50%); /* Keep buttons centered vertically */
+    margin: 15px;
+    border-radius: 7px;
+  }
+
+  /* Style the icons */
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    color: white; /* White color for icons */
+    font-size: 24px; /* Adjust icon size */
+  }
+
+  /* Add decorative border */
+  .carousel-control-prev:before,
+  .carousel-control-next:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+    opacity: 0;
+    transition: all 0.3s ease;
+  }
+
+  /* Show border on hover */
+  .carousel-control-prev:hover:before,
+  .carousel-control-next:hover:before {
+    opacity: 1;
+  }
+  
+  .jagannath img
+  {
+    box-shadow: 0px 30px 20px rgb(98, 98, 98);
+    mask-image: linear-gradient(to right, transparent 0%, black 20%, black 80%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 20%, black 80%, transparent 100%);
+    background: rgba(255, 255, 255, 0.3);
+    filter: blur(0.5px);
+    
+  }
+  .prabhupada
+  {
+    margin-top: 50px;
+  }
+  .btn-custom {
+    background-color: #7C5229;
+    color: #fff;
+    font-family: "Vollkorn SC", serif;
+  }
+  
+  .btn-outline-custom {
+    color: #7C5229;
+    border-color: #7C5229;
+  }
+  
+  .btn-custom:hover,
+  .btn-outline-custom:hover {
+    background-color: #644221;
+    color: #fff;
+    border-color: #644221;
+  }
+  
+  .box {
+    border: 1px solid #b0aaaa;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+  }
+  .services h1
+  {
+    font-family: "Vollkorn SC", serif;
+    
+  }
+  .services p
+  {
+    text-align: center;
+    font-family: "Vollkorn SC", serif;
+    font-size: 19px;
+    
+  }
+  .services h3
+  {
+    font-family: "Vollkorn SC", serif;
+    font-size: 25px;
+    
+  }
+  .button
+  {
+    background-color: #7C5229;
+    font-family: "Vollkorn SC", serif;
+    color: white;
+    transition: transform 0.2s ease-in-out;
+    width: 100%;
+    font-size: 16px;
+  }
+  .button:hover
+  {
+    background-color: #8c5e31;
+    color: white;
+    transform:scale(1.1);
+    
+  }
+  .bg-img
+  {
+    height: 150px;
+    width: 150px;
+    border: 1px solid white;
+    box-shadow: 2px 2px 5px black;
+  }
+  .join-now-container {
+    position: relative;
+    width: 100%;
+    
+    height: 500px;
+    overflow: hidden;
+    
+    box-shadow: 0px 30px 20px rgb(98, 98, 98);
+}
+
+.join-now-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://www.mayapur.com/wp-content/uploads/2020/05/SSRM-FullAltar-small.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    filter: blur(1px) contrast(1.2);
+    z-index: 1;
+    box-shadow: 2px 2px 5px black;
+}
+
+.join-content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    gap: 20px;
+    
+}
+
+.join-content h3 {
+    margin: 0;
+    font-family: "Vollkorn SC", serif;
+    margin: 20px;
+    text-align: center;
+}
+
+.join-now-btn {
+    padding: 10px 20px;
+    background-color: #ff7f50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 20px;
+    font-family: "Vollkorn SC", serif;
+    text-decoration: none;
+    
+}
+
+.join-now-btn:hover {
+    background-color: #ff6347;
+}
+
+
+

@@ -1,0 +1,45 @@
+.navbar-brand{
+    
+    font-size: x-large;
+    color:  #7C5229 !important;
+    padding: 0px;
+    font-family: "Vollkorn SC", serif;
+    
+}
+.navbar
+{
+    background-color: white;
+    
+    border-bottom: 1px solid #7C5229;
+    box-shadow: 2px 2px 2px rgb(71, 68, 68);
+    
+}
+.navbar-nav .nav-link {
+    border-bottom: 2px solid transparent; /* Initially, make the border transparent */
+    font-family: "Vollkorn SC", serif;
+    color:  #7C5229;
+  }
+  .navbar-nav .nav-link:hover {
+    border-bottom-color: #7C5229; /* Change 'yourBorderColor' to the desired color */
+  }
+  .dropdown-item {
+    color: #7C5229; /* Change to your desired color */
+    font-family: "Vollkorn SC", serif;
+  }
+  
+  .dropdown-item:hover {
+    color: white; /* Change to your desired hover color */
+    background-color: #7C5229; /* Change to your desired hover background color */
+  }
+  .dropdown-item.active {
+    color: white; /* Change to your desired hover color */
+    background-color: #7C5229; /* Change to your desired active background color */
+  }
+  .btn-custom
+  {
+    transition: transform 0.3s ease;
+  }
+  .btn-custom:hover
+  {
+    transform: scale(1.1);
+  }

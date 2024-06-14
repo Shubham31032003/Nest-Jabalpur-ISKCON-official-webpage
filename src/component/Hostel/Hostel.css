@@ -1,0 +1,25 @@
+.facility-container {
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #b0aaaa;
+    
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+  }
+  
+  .facility-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+  }
+  
+  .facilities 
+  {
+    font-family: "Vollkorn SC", serif;
+    font-size: 19px;
+    
+  }
+  

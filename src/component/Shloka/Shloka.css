@@ -1,0 +1,50 @@
+.geeta-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+  }
+  
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(255, 255, 255, 0.9);;
+    padding: 20px;
+    width: 80%; /* Set width of the popup */
+    margin: 0 auto; /* Center the popup horizontally */
+    max-width: 500px; /* Optional: set max-width for the popup */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.2);
+    opacity: 0; /* Initially hide the popup */
+    animation: fadeInAndScale 0.3s ease forwards; /* Use animation for smooth appearance */
+   
+  }
+  
+  
+  @keyframes fadeInAndScale {
+    from {
+      transform: translate(-50%, -50%) scale(0.8); /* Start with a smaller size */
+      opacity: 0.5; /* Start with opacity 0 */
+    }
+    to {
+      transform: translate(-50%, -50%) scale(1); /* End with full size */
+      opacity: 1; /* End with opacity 1 */
+    }
+  }
+  
+  
+  .popup-content {
+    text-align: center;
+    font-family: "Vollkorn SC", serif;
+    color: #7C5229;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  

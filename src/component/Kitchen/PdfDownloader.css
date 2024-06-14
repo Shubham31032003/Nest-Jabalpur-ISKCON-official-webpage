@@ -1,0 +1,36 @@
+.pdf-downloader-container {
+  display: grid;
+  place-items: center;
+  
+}
+
+.pdf-downloader {
+  text-align: center;
+  font-family: "Vollkorn SC", serif;
+}
+.pdf-downloader h3
+{
+  font-size: 19px;
+}
+.pdf-downloader p
+{
+  font-size: 21px;
+}
+
+.pdf-download-btn {
+  margin-top: 20px;
+  cursor: pointer;
+  padding: 10px 20px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: #7C5229;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Vollkorn SC", serif;
+  transition: transform 0.2s ease-in-out;
+}
+.pdf-download-btn:hover
+{
+  background-color: #8c5e31;
+  transform: scale(1.1);
+}
